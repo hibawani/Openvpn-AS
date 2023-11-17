@@ -7,12 +7,8 @@
 cd /tmp/ && yum install git -y && git clone https://github.com/hibawani/Openvpn-AS && cd OpenVPN-AS-Unlimited/ && sed -i -e 's/\r$//' centos7.sh && chmod 755 centos7.sh && ./centos7.sh
 ```
 > Project Short Link: http://git.io/vpn-as
+> Requirements:
 
-Video Tutorial by Nirob3x : https://www.youtube.com/watch?v=VjA5DuDaweo
-
-Clone This repo from [Nirob3x](https://github.com/Nirob3x/OpenVPN-As-Unlimited)
-
-Prerequisite:-
 ```
 sudo dnf install libnsl
 sudo dnf install ncurses-compat-libs
