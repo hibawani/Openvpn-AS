@@ -11,3 +11,8 @@ $ cd /tmp/ && yum install git -y && git clone https://github.com/KashifHK123/Ope
 Video Tutorial by Nirob3x : https://www.youtube.com/watch?v=VjA5DuDaweo
 
 Clone This repo from [Nirob3x](https://github.com/Nirob3x/OpenVPN-As-Unlimited)
+
+```sudo dnf install libnsl
+sudo dnf install ncurses-compat-libs
+sudo dnf install ncurses-libs
+```
