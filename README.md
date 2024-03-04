@@ -11,7 +11,5 @@ cd /tmp/ && yum install git -y && git clone https://github.com/hibawani/Openvpn-
 > Requirements:
 
 ```
-sudo dnf install libnsl
-sudo dnf install ncurses-compat-libs
-sudo dnf install ncurses-libs
+sudo dnf install libnsl && sudo dnf install ncurses-compat-libs && sudo dnf install ncurses-libs
 ```
